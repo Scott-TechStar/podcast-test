@@ -4,7 +4,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Chekout Repo
+      - name: Checkout Repo
         uses: actions/checkout@v3
       - name: Run Feed Generator
         uses: Scott-TechStar/podcast-generator@main
